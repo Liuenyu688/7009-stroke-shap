@@ -1,0 +1,204 @@
+{
+  "shape": [
+    5110,
+    12
+  ],
+  "n_dup_ids": 0,
+  "n_dup_rows": 0,
+  "missing": {
+    "bmi": 201
+  },
+  "missing_pct": {
+    "bmi": 3.93
+  },
+  "stroke_counts": {
+    "0": 4861,
+    "1": 249
+  },
+  "prevalence": 0.0487,
+  "numeric_summary": {
+    "age": {
+      "mean": 43.23,
+      "sd": 22.61,
+      "median": 45.0,
+      "q1": 25.0,
+      "q3": 61.0,
+      "min": 0.08,
+      "max": 82.0
+    },
+    "avg_glucose_level": {
+      "mean": 106.15,
+      "sd": 45.28,
+      "median": 91.88,
+      "q1": 77.25,
+      "q3": 114.09,
+      "min": 55.12,
+      "max": 271.74
+    },
+    "bmi": {
+      "mean": 28.89,
+      "sd": 7.85,
+      "median": 28.1,
+      "q1": 23.5,
+      "q3": 33.1,
+      "min": 10.3,
+      "max": 97.6
+    }
+  },
+  "numeric_by_stroke_median": {
+    "age": {
+      "0": 43.0,
+      "1": 71.0
+    },
+    "avg_glucose_level": {
+      "0": 91.47,
+      "1": 105.22
+    },
+    "bmi": {
+      "0": 28.0,
+      "1": 29.7
+    }
+  },
+  "categorical": {
+    "gender": {
+      "Female": {
+        "n": 2994,
+        "stroke_n": 141,
+        "rate": 0.0471
+      },
+      "Male": {
+        "n": 2115,
+        "stroke_n": 108,
+        "rate": 0.0511
+      },
+      "Other": {
+        "n": 1,
+        "stroke_n": 0,
+        "rate": 0.0
+      }
+    },
+    "ever_married": {
+      "No": {
+        "n": 1757,
+        "stroke_n": 29,
+        "rate": 0.0165
+      },
+      "Yes": {
+        "n": 3353,
+        "stroke_n": 220,
+        "rate": 0.0656
+      }
+    },
+    "work_type": {
+      "Govt_job": {
+        "n": 657,
+        "stroke_n": 33,
+        "rate": 0.0502
+      },
+      "Never_worked": {
+        "n": 22,
+        "stroke_n": 0,
+        "rate": 0.0
+      },
+      "Private": {
+        "n": 2925,
+        "stroke_n": 149,
+        "rate": 0.0509
+      },
+      "Self-employed": {
+        "n": 819,
+        "stroke_n": 65,
+        "rate": 0.0794
+      },
+      "children": {
+        "n": 687,
+        "stroke_n": 2,
+        "rate": 0.0029
+      }
+    },
+    "Residence_type": {
+      "Rural": {
+        "n": 2514,
+        "stroke_n": 114,
+        "rate": 0.0453
+      },
+      "Urban": {
+        "n": 2596,
+        "stroke_n": 135,
+        "rate": 0.052
+      }
+    },
+    "smoking_status": {
+      "Unknown": {
+        "n": 1544,
+        "stroke_n": 47,
+        "rate": 0.0304
+      },
+      "formerly smoked": {
+        "n": 885,
+        "stroke_n": 70,
+        "rate": 0.0791
+      },
+      "never smoked": {
+        "n": 1892,
+        "stroke_n": 90,
+        "rate": 0.0476
+      },
+      "smokes": {
+        "n": 789,
+        "stroke_n": 42,
+        "rate": 0.0532
+      }
+    },
+    "hypertension": {
+      "0": {
+        "n": 4612,
+        "stroke_n": 183,
+        "rate": 0.0397
+      },
+      "1": {
+        "n": 498,
+        "stroke_n": 66,
+        "rate": 0.1325
+      }
+    },
+    "heart_disease": {
+      "0": {
+        "n": 4834,
+        "stroke_n": 202,
+        "rate": 0.0418
+      },
+      "1": {
+        "n": 276,
+        "stroke_n": 47,
+        "rate": 0.1703
+      }
+    }
+  },
+  "stroke_rate_by_age_band": {
+    "[0, 20)": {
+      "n": 966,
+      "stroke_n": 2,
+      "rate": 0.0021
+    },
+    "[20, 40)": {
+      "n": 1204,
+      "stroke_n": 6,
+      "rate": 0.005
+    },
+    "[40, 60)": {
+      "n": 1564,
+      "stroke_n": 60,
+      "rate": 0.0384
+    },
+    "[60, 80)": {
+      "n": 1190,
+      "stroke_n": 141,
+      "rate": 0.1185
+    }
+  },
+  "glucose_gt200_by_stroke": {
+    "0": 0.0778,
+    "1": 0.2249
+  }
+}

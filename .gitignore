@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Fitted estimators — regenerate with src/run_models.py and src/run_svm.py
+*.pkl
+*.joblib
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Course template is not redistributed (see README section 5)
+report/Stroke_SHAP_Report_Template.docx

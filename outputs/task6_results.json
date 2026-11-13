@@ -1,0 +1,173 @@
+{
+  "metrics": {
+    "threshold": 0.14,
+    "accuracy": 0.8728,
+    "balanced_accuracy": 0.7339,
+    "precision": 0.2101,
+    "recall": 0.58,
+    "f1": 0.3085,
+    "roc_auc": 0.8594,
+    "average_precision": 0.219,
+    "confusion": {
+      "tn": 863,
+      "fp": 109,
+      "fn": 21,
+      "tp": 29
+    },
+    "n_train": 3066,
+    "n_val": 1022,
+    "n_test": 1022,
+    "n_support_vectors": 1697,
+    "fit_seconds": 1.2,
+    "params": {
+      "kernel": "rbf",
+      "C": 1.0,
+      "gamma": 0.02,
+      "class_weight": "balanced"
+    }
+  },
+  "shap": {
+    "explainer": "shap.KernelExplainer on predict_proba[:, 1] (probability scale)",
+    "background_size": 100,
+    "background_sampling": "shap.sample(X_train, 100, random_state=2021)",
+    "nsamples_local": 2048,
+    "nsamples_global": 512,
+    "l1_reg": 0.0,
+    "global_sample_size": 150,
+    "global_seed": 2021,
+    "base_value": 0.049777,
+    "local_reconstruction_residual": 2.7755575615628914e-17,
+    "global_max_residual": 8.326672684688674e-17,
+    "seconds_local_case": 20.3,
+    "seconds_global_sample": 756.2,
+    "shap_version": "0.54.1"
+  },
+  "case": {
+    "position_in_test": 334,
+    "probability": 0.1837,
+    "predicted": 1,
+    "actual": 1,
+    "contributions_grouped": {
+      "Age": 0.07038,
+      "Average glucose": 0.02374,
+      "BMI": 0.01176,
+      "Heart disease": 0.0108,
+      "Smoking status": 0.0089,
+      "Work type": 0.00553,
+      "Gender": 0.00185,
+      "Ever married": 0.0016,
+      "Residence": -0.00035,
+      "Hypertension": -0.00034
+    },
+    "top_positive": [
+      [
+        "Age",
+        0.07038
+      ],
+      [
+        "Average glucose",
+        0.02374
+      ],
+      [
+        "BMI",
+        0.01176
+      ]
+    ],
+    "top_negative": [
+      [
+        "Residence",
+        -0.00035
+      ],
+      [
+        "Hypertension",
+        -0.00034
+      ]
+    ]
+  },
+  "global": {
+    "mean_abs_top10": [
+      {
+        "feature": "Age",
+        "mean_abs_shap": 0.04381
+      },
+      {
+        "feature": "Smoking status = never smoked",
+        "mean_abs_shap": 0.00418
+      },
+      {
+        "feature": "Average glucose",
+        "mean_abs_shap": 0.00409
+      },
+      {
+        "feature": "BMI",
+        "mean_abs_shap": 0.00329
+      },
+      {
+        "feature": "Work type = Self-employed",
+        "mean_abs_shap": 0.00265
+      },
+      {
+        "feature": "Smoking status = smokes",
+        "mean_abs_shap": 0.00222
+      },
+      {
+        "feature": "Work type = children",
+        "mean_abs_shap": 0.00187
+      },
+      {
+        "feature": "Hypertension = 1",
+        "mean_abs_shap": 0.00174
+      },
+      {
+        "feature": "Hypertension = 0",
+        "mean_abs_shap": 0.00171
+      },
+      {
+        "feature": "Smoking status = Unknown",
+        "mean_abs_shap": 0.00166
+      }
+    ],
+    "grouped_by_variable": [
+      {
+        "variable": "Age",
+        "mean_abs_summed_shap": 0.04381
+      },
+      {
+        "variable": "Smoking status",
+        "mean_abs_summed_shap": 0.00566
+      },
+      {
+        "variable": "Average glucose",
+        "mean_abs_summed_shap": 0.00409
+      },
+      {
+        "variable": "Work type",
+        "mean_abs_summed_shap": 0.00361
+      },
+      {
+        "variable": "Hypertension",
+        "mean_abs_summed_shap": 0.00345
+      },
+      {
+        "variable": "BMI",
+        "mean_abs_summed_shap": 0.00329
+      },
+      {
+        "variable": "Ever married",
+        "mean_abs_summed_shap": 0.00224
+      },
+      {
+        "variable": "Residence",
+        "mean_abs_summed_shap": 0.00097
+      },
+      {
+        "variable": "Gender",
+        "mean_abs_summed_shap": 0.00082
+      },
+      {
+        "variable": "Heart disease",
+        "mean_abs_summed_shap": 0.00079
+      }
+    ]
+  }
+}

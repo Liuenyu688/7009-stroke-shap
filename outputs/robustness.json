@@ -1,0 +1,86 @@
+{
+  "bg2021": {
+    "base": 0.049776671234647074,
+    "case_grouped": {
+      "Age": 0.07069,
+      "Average glucose": 0.02382,
+      "BMI": 0.01146,
+      "Gender": 0.00182,
+      "Hypertension": -0.0002,
+      "Heart disease": 0.01092,
+      "Ever married": 0.00136,
+      "Work type": 0.00532,
+      "Residence": -0.00068,
+      "Smoking status": 0.00938
+    },
+    "global_grouped": {
+      "Age": 0.04419,
+      "Average glucose": 0.00421,
+      "BMI": 0.00263,
+      "Gender": 0.00078,
+      "Hypertension": 0.00248,
+      "Heart disease": 0.00059,
+      "Ever married": 0.00215,
+      "Work type": 0.00344,
+      "Residence": 0.00076,
+      "Smoking status": 0.0041
+    },
+    "seconds": 236.6
+  },
+  "bg7": {
+    "base": 0.04885503790911693,
+    "case_grouped": {
+      "Age": 0.07633,
+      "Average glucose": 0.02267,
+      "BMI": 0.01128,
+      "Gender": 0.00177,
+      "Hypertension": -0.00025,
+      "Heart disease": 0.01044,
+      "Ever married": 0.00172,
+      "Work type": 0.00547,
+      "Residence": -0.00094,
+      "Smoking status": 0.00633
+    },
+    "global_grouped": {
+      "Age": 0.04313,
+      "Average glucose": 0.00457,
+      "BMI": 0.00324,
+      "Gender": 0.00076,
+      "Hypertension": 0.00259,
+      "Heart disease": 0.00078,
+      "Ever married": 0.00212,
+      "Work type": 0.00335,
+      "Residence": 0.00081,
+      "Smoking status": 0.00481
+    },
+    "seconds": 208.5
+  },
+  "comparison": {
+    "max_abs_case_diff": 0.00564,
+    "case_sign_agreement": 1.0,
+    "case_diffs": {
+      "Age": 0.00564,
+      "Average glucose": -0.00115,
+      "BMI": -0.00018,
+      "Gender": -5e-05,
+      "Hypertension": -5e-05,
+      "Heart disease": -0.00048,
+      "Ever married": 0.00036,
+      "Work type": 0.00015,
+      "Residence": -0.00026,
+      "Smoking status": -0.00305
+    },
+    "spearman_global_rank": 0.952,
+    "top3_bg2021": [
+      "Age",
+      "Average glucose",
+      "Smoking status"
+    ],
+    "top3_bg7": [
+      "Age",
+      "Smoking status",
+      "Average glucose"
+    ],
+    "top3_overlap": 1
+  }
+}

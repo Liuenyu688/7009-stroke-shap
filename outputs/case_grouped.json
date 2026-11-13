@@ -1,0 +1,49 @@
+{
+  "base": 0.04842,
+  "contributions": [
+    {
+      "feature": "Smoking status",
+      "patient_value": "formerly smoked",
+      "shap": -0.01386
+    },
+    {
+      "feature": "Hypertension",
+      "patient_value": "0",
+      "shap": -0.00312
+    },
+    {
+      "feature": "all other variables",
+      "patient_value": "-",
+      "shap": -0.00099
+    },
+    {
+      "feature": "BMI",
+      "patient_value": "31.9",
+      "shap": 0.00896
+    },
+    {
+      "feature": "Work type",
+      "patient_value": "Private",
+      "shap": 0.00897
+    },
+    {
+      "feature": "Average glucose",
+      "patient_value": "223.83",
+      "shap": 0.04715
+    },
+    {
+      "feature": "Heart disease",
+      "patient_value": "1",
+      "shap": 0.05478
+    },
+    {
+      "feature": "Age",
+      "patient_value": "68",
+      "shap": 0.05755
+    }
+  ],
+  "residual": -0.00099,
+  "n_merged": 3,
+  "sum": 0.15944,
+  "probability": 0.2079
+}
