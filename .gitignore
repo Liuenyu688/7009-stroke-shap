@@ -16,3 +16,6 @@ Thumbs.db
 
 # Course template is not redistributed (see README section 5)
 report/Stroke_SHAP_Report_Template.docx
+
+# Local helper for the first push (not part of the submission)
+push-to-github.bat
